@@ -6,11 +6,11 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp2
 {
-    internal static class Program
+    internal class Program
     {
-        static void Main()
+        public void print()
         {
-           
+            Console.WriteLine("Damn");
         }
     }
 }
